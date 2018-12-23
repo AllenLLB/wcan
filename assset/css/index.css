@@ -7,8 +7,22 @@ html,body {
     height: 100%;
     overflow: hidden;
 }
-#wcan {
+#canvas {
+    position: fixed;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3)
+    z-index: -1;
+}
+#wcan {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3)
+}
+.wcan-title {
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    text-indent: 10px;
 }

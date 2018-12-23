@@ -5,15 +5,26 @@ function Wcan(){
 Wcan.prototype.init = function(){
     this.initPramas();
     this.initCanvas();
+    this.drawBackground();
 };
 Wcan.prototype.initPramas = function(){
-    this.$win = $('#wcan');
-    this.$can = this.$win.find('#can');
-    this.ctx = this.$can[0].getContext('2d');
+    
 };
 Wcan.prototype.initCanvas = function(){
-    this.$can[0].height = this.$win.height();
-    this.$can[0].width = this.$win.width();
+    var $canvas = $('#bg-can');
+    $canvas[0].width = $('#canvas').width();
+    $canvas[0].height = $('#canvas').height();
+};
+Wcan.prototype.drawBackground = function(){
+    var ctx = $('#bg-can')[0].getContext('2d'), w = 0, h = 0, scale = 0;
+    var img = new Image();
+    img.src = 'assset/img/miss.jpg';
+    img.onload = function(){
+       w = img.width;
+       h = img.height;
+       scale = $('#canvas').width()/img.width;
+       ctx.drawImage(img, 0, 0, w*scale, h*scale);
+    };
 };
 
 
