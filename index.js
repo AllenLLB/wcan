@@ -12,7 +12,8 @@ Wcan.prototype.initPramas = function(){
     this.ctx = this.$can[0].getContext('2d');
 };
 Wcan.prototype.initCanvas = function(){
-    console.log(this.$can, this.ctx);
+    this.$can[0].height = this.$win.height();
+    this.$can[0].width = this.$win.width();
 };
 
 
