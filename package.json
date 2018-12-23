@@ -1,0 +1,22 @@
+{
+  "name": "wcan",
+  "version": "1.0.0",
+  "description": "canvas website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllenLLB/wcan.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "liulibo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllenLLB/wcan/issues"
+  },
+  "homepage": "https://github.com/AllenLLB/wcan#readme"
+}
