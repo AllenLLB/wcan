@@ -22,7 +22,7 @@ Wcan.prototype.drawBackground = function(){
     img.onload = function(){
        w = img.width;
        h = img.height;
-       scale = $('#canvas').width()/img.width;
+       scale = $('#canvas').height()/img.height;
        ctx.drawImage(img, 0, 0, w*scale, h*scale);
     };
 };
