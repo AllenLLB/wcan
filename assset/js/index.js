@@ -5,7 +5,7 @@ function Wcan(){
 Wcan.prototype.init = function(){
     this.initPramas();
     this.initCanvas();
-    this.drawBackground();
+    // this.drawBackground();
 };
 Wcan.prototype.initPramas = function(){
     
