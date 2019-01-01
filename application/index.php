@@ -1,7 +1,5 @@
-<!-- <?php //require "header.html"; ?>
+<?php include "header.html"; ?>
 
-<div id="wcan">
-    adadsad
-</div>
+<div id="wcan">hello world</div>
 
-//<?php //require "footer.html"; ?> -->
+<?php include "footer.html"; ?>
