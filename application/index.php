@@ -1,3 +1,4 @@
-<?php
-    echo 'hello world';
+<?php 
+    include "header.html";
+    include "footer.html";
 ?>
