@@ -1,5 +1,7 @@
-<?php 
-    include "header.html";
-    include dirname(__FILE__) . "/home/home.html"
-    include "footer.html";
-?>
+<?php include "header.html"; ?>
+
+<div id="wcan">
+    
+</div>
+
+<?php include "footer.html"; ?>
