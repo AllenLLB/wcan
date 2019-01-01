@@ -1,5 +1,5 @@
-<?php include "header.html"; ?>
-
-<div id="wcan">hello world</div>
-
-<?php include "footer.html"; ?>
+<?php 
+    include "header.html";
+    include dirname(_FILE_) . "/home/home.html"; 
+    include "footer.html";
+?>
